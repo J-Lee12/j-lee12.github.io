@@ -208,7 +208,9 @@
 
 @media (max-width: 1080px) {
     .main {
-        background-size: 
+        background-image: url("images/mobile.jpg");
+        background-size: cover;
+        background-position: bottom center;
     }
 
     .leftbox {
@@ -216,11 +218,11 @@
     }
 
     .spacer1 {
-        margin-top: -10em;
+        margin-top: 20em;
     }
 
     .m19{
-        margin-top: 5em;
+        margin-top: 20em;
     }
 
     .josh {
