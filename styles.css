@@ -6,11 +6,9 @@
 .main {
     background-image: url("images/JJJ07519.jpg");
     color: white;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: center;
-    margin: 0px;
-    padding: 0px;
+    /* background-position: center; */
     margin-top: -2em;
 }
 
@@ -82,7 +80,7 @@
   }
 
 .spacer1 {
-    margin-top: 40em;
+    margin-top: 10em;
     color: rgba(0, 0, 0, 0)
 }
 
@@ -122,9 +120,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 5em;
-    margin-left: 40em;
-    margin-right: 45em;
     flex-wrap: nowrap;
+    font-size: 2em;
+    padding: 3em;
 }
 
 .linkbox {
@@ -204,5 +202,38 @@
 
     100% {
         transform: translateX(1);
+    }
+}
+
+
+@media (max-width: 1080px) {
+    .main {
+        background-size: 
+    }
+
+    .leftbox {
+        font-size: .50em;
+    }
+
+    .spacer1 {
+        margin-top: -10em;
+    }
+
+    .m19{
+        margin-top: 5em;
+    }
+
+    .josh {
+        width: 50%;
+        height: 50%;
+    }
+
+    .content {
+        margin-top: 1em;
+        font-size: 1em;
+    }
+
+    .space {
+        margin-top: 10em;
     }
 }
