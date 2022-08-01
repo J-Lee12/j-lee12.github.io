@@ -8,7 +8,6 @@
     color: white;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    /* background-position: center; */
     margin-top: -2em;
 }
 
@@ -59,7 +58,7 @@
 .m19 {
     display: flex;
     justify-content: center;
-    margin-top: 30em;
+    margin-top: 15em;
     font-family: 'Quicksand', sans-serif;
   }
   
@@ -218,11 +217,11 @@
     }
 
     .spacer1 {
-        margin-top: 20em;
+        margin-top: 10em;
     }
 
     .m19{
-        margin-top: 20em;
+        margin-top: 13em;
     }
 
     .josh {
