@@ -63,6 +63,13 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.contact-menubar {
+    position: absolute;
+    right: 0;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -6em;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -166,9 +173,13 @@ a:active {
     gap: 1em;
     font-size: 1.5em;
     color: white;
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 4em;
 }
 
 .linkholder {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
