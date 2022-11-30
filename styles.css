@@ -9,7 +9,7 @@
 }
 
 .main {
-
+    font-family: 'Quicksand', sans-serif;
     margin-top: -2em;
 }
 
@@ -18,7 +18,6 @@
 }
 .top {
     display: flex;
-    font-family: 'Quicksand', sans-serif;
     justify-content: space-between;
     margin-left: 5em;
     margin-right: 2em;
@@ -29,6 +28,31 @@
     font-size: 3em;
     font-weight: bold;
     margin-bottom: .5em;
+}
+
+.projects {
+    margin-top: 8em;
+    margin-left: 7em;
+    font-size: .75em;
+}
+
+.brahms {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.scheduler {
+    margin-top: 2em;
+}
+
+.schedulertitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 /* Navigation bar*/
@@ -46,7 +70,7 @@ ul {
   }
 
 li {
-    display: inline;
+    float: left;
 }
 
 a {
@@ -67,7 +91,7 @@ a:visited {
 }
 
 a:hover {
-    color: white;
+    color: lightblue;
     background-color: transparent;
     text-decoration: none;
 }
