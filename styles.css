@@ -1,13 +1,15 @@
+/* landing page */
 .body {
     margin:0px;
     padding:0px;
-}
-
-.main {
     background-image: url("images/JJJ07519.jpg");
     color: white;
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.main {
+
     margin-top: -2em;
 }
 
@@ -30,6 +32,12 @@
 }
 
 /* Navigation bar*/
+
+.menubar {
+    position: absolute;
+    right: 0;
+    font-family: 'Quicksand', sans-serif;
+}
 
 ul {
     list-style-type: none;
@@ -70,58 +78,9 @@ a:active {
     text-decoration: none;
 }
 
-/* this is for the animation of the description */
-.list {
-    margin-top: 0;
-    padding-left: 110px;
-    text-align: left;
-    list-style: none;
-    
-    -webkit-animation-name: change;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
-    animation-name: change;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-.item {
-      line-height:40px;
-      margin:0;
-}
-
-
-
-.description {
-    font-size: 2em;
-}
-
-.m19 {
-    display: flex;
-    justify-content: center;
-    margin-top: 15em;
-    font-family: 'Quicksand', sans-serif;
-  }
-  
-  .m19 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  
-  .m19 .letter {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
-    
-  }
-
 /* bio page begins here */
 
-.bio {
+.bio-body {
     background-image: url("images/IMG_8498.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -169,8 +128,23 @@ a:active {
     margin-top: 30em;
 }
 
-.menubar {
-    position: absolute;
-    right: 0;
-    font-family: 'Quicksand', sans-serif;
+/* contact page */
+
+.contact-body {
+    background-image: url("/images/JJJ07490.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.contact-textbox {
+    display: flex;
+    flex-direction:column;
+    gap: 1em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.linkholder {
+    display: flex;
+    align-items: center;
 }
