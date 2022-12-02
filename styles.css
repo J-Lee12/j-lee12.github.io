@@ -39,9 +39,11 @@
 .brahms {
     display: flex;
     flex-direction: column;
-    gap: 1em;
     font-weight: bold;
     font-size: 1.5em;
+    flex-wrap: wrap;
+    width: 20em;
+    gap: 1em;
 }
 
 .scheduler {
